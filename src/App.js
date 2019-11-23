@@ -1,10 +1,11 @@
 import React from 'react';
-import Productos from './components/Productos';
+import Header from './components/Header';
+import NewCite from "./components/NewCite";
 const App = () => {
 	return ( 
-		<div>
-			<h1>app</h1>
-			<Productos/>
+	<div>
+		<Header title={"aplicacion de turnos"}/>
+		<NewCite/>
     </div>
 	 );
 }
