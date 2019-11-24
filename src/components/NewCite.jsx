@@ -93,5 +93,5 @@ class NewCite extends Component {
         );
     }
 }
- 
+
 export default NewCite;

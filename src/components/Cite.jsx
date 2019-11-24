@@ -1,5 +1,5 @@
 import React from 'react'
-const Cite = ({cite}) => {
+const Cite = ({cite,deleteCite}) => {
     return (
       <div>
         <ul>
@@ -8,6 +8,7 @@ const Cite = ({cite}) => {
           <li>{cite.date}</li>
           <li>{cite.time}</li>
           <li>{cite.description}</li>
+          <button onClick={()=>deleteCite(cite.id)} >delete cite</button>
         </ul>
       </div>
     );
